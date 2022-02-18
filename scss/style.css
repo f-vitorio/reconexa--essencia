@@ -76,7 +76,7 @@ article {
   -ms-grid-columns: 1fr 2fr 1fr;
       grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
-  background: #f1f0f0;
+  background: #fae9e9;
   text-align: center;
   padding: 2em;
 }
@@ -95,7 +95,7 @@ article * {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   margin: 2em;
-  background: #f1f0f0;
+  background: #fae9e9;
 }
 
 .espaco img {
@@ -183,12 +183,12 @@ article * {
 }
 
 .box {
-  background-color: #f1f0f0;
+  background-color: #fae9e9;
   padding: 0.7em;
 }
 
 footer {
-  background: #f1f0f0;
+  background: #fae9e9;
   text-align: center;
   color: #181717;
 }
@@ -199,7 +199,7 @@ footer {
   grid-gap: 10px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  background: #f1f0f0;
+  background: #fae9e9;
   color: #2c2a2a;
   padding: 5em;
 }
