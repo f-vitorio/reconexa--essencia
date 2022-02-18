@@ -20,7 +20,6 @@ body {
   font-weight: 600;
 }
 
-
 h2,
 h3,
 h4 {
@@ -30,25 +29,31 @@ h4 {
 
 .img-hero {
   position: absolute;
-  background: url(/assets/img/Hero.jpg);
+  background: url(/assets/img/lotus.jpg);
   background-size: cover;
-  background-position-x: 35%;
-  background-position-y: 55%;
+  background-position-x: 55%;
+  background-position-y: 50%;
   width: 100%;
-  height: 75vh;
+  height: 95vh;
   z-index: -1;
 
   filter: contrast();
 }
 
 .hero {
-  color: white;
-  padding: 2rem;
+  color: rgb(246, 88, 67);
+  text-align: center;
+  text-shadow: 1em;
+  margin: 3em;
 
-  h4 {
-    font-size: 1.8rem;
-    font-weight: 200;
+  quote {
+    font-size: 1.3rem;
+    font-weight: 600;
     line-height: 35px;
+    color: rgb(228, 246, 67);
+  }
+  h3 {
+    color: rgb(255, 100, 100);
   }
 }
 
@@ -79,7 +84,11 @@ article {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
-  background-image: linear-gradient(to right, rgb(241, 124, 124) , rgb(240, 240, 161));
+  background-image: linear-gradient(
+    to right,
+    rgb(241, 124, 124),
+    rgb(240, 240, 161)
+  );
   // align-content: center;
   // justify-content: center;
   text-align: center;
@@ -90,7 +99,6 @@ article {
     min-width: 0;
   }
 }
-
 
 // espaço
 .espaco {
@@ -135,7 +143,33 @@ article {
   }
 }
 
-// time
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+// head
+
+.head {
+ 
+  margin: 3em;
+  padding: 0.1em;
+  text-align: center;
+  margin: 5em;
+
+  img {
+    width: 100%;
+    height: 250px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+    color: rgb(102, 30, 30);
+  }
+}
 
 // terapeutas
 .terapeutas {
@@ -176,10 +210,11 @@ article {
   grid-gap: 4em;
   grid-template-columns: repeat(2, 1fr);
   margin: 3em 3em;
+  text-align: center;
 }
 
 .sobrenossoevento {
-  margin-top: 3em;
+  text-align: center;
 }
 
 .investimento {
@@ -256,5 +291,4 @@ footer {
     display: grid;
     grid-template-columns: 10px 2fr 10px;
   }
-
 }
