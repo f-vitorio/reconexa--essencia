@@ -7,13 +7,13 @@ body {
 }
 
 body p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .btn {
   color: white;
   text-transform: uppercase;
-  background: #5353f0;
+  background: red;
   font-weight: 600;
 }
 
@@ -76,7 +76,8 @@ article {
   -ms-grid-columns: 1fr 2fr 1fr;
       grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
-  background: #e7d2d2;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f17c7c), to(#f0f0a1));
+  background-image: linear-gradient(to right, #f17c7c, #f0f0a1);
   text-align: center;
   padding: 2em;
 }

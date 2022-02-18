@@ -6,18 +6,17 @@ body {
   display: grid;
   grid-column: 15em 1fr 15em;
   grid-gap: 1em;
-
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
 .btn {
   color: white;
   text-transform: uppercase;
-  background: rgb(83, 83, 240);
+  background: red;
   font-weight: 600;
 }
 
@@ -80,7 +79,7 @@ article {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
-  background: $light-color;
+  background-image: linear-gradient(to right, rgb(241, 124, 124) , rgb(240, 240, 161));
   // align-content: center;
   // justify-content: center;
   text-align: center;
