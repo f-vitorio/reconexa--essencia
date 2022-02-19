@@ -7,7 +7,7 @@ body {
 }
 
 body p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .btn {
@@ -20,8 +20,8 @@ body p {
 h2,
 h3,
 h4 {
-  font-weight: 600;
-  color: #0b39ce;
+  font-weight: 400;
+  color: #4d5794;
 }
 
 .img-hero {
@@ -83,8 +83,6 @@ article {
   -ms-grid-columns: 1fr 2fr 1fr;
       grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 10px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#f17c7c), to(#f0f0a1));
-  background-image: linear-gradient(to right, #f17c7c, #f0f0a1);
   text-align: center;
   padding: 2em;
 }
@@ -103,7 +101,7 @@ article * {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   margin: 2em;
-  background: #e7d2d2;
+  background: #f7f2f2;
 }
 
 .espaco img {
@@ -121,8 +119,6 @@ article * {
   grid-gap: 1em;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   text-align: start;
 }
 
@@ -171,6 +167,19 @@ svg {
   height: 300px;
 }
 
+.terapeutas1 {
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1 /-1;
+  -ms-grid-columns: minmax(auto, 900px);
+      grid-template-columns: minmax(auto, 900px);
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5em;
+}
+
 .nome {
   font-weight: 700;
   color: #3d3c3c;
@@ -195,11 +204,24 @@ svg {
 .evento {
   display: -ms-grid;
   display: grid;
-  grid-gap: 4em;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  margin: 3em 3em;
-  text-align: center;
+  grid-gap: 1em;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 3em 0.3em;
+}
+
+.atividades {
+  background: #4d5794;
+  padding: 15px;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  color: white;
+}
+
+.atividades h3 {
+  color: white;
 }
 
 .sobrenossoevento {
@@ -209,20 +231,22 @@ svg {
 .investimento {
   display: -ms-grid;
   display: grid;
-  grid-gap: 1em;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  margin: 3em;
+  grid-gap: 0.2em;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 2em;
   padding: 0.1em;
 }
 
 .box {
-  background-color: #e7d2d2;
+  background-color: #f7f2f2;
   padding: 0.7em;
+  inline-size: 400px;
+  overflow-wrap: break-word;
 }
 
 footer {
-  background: #e7d2d2;
+  background: #f7f2f2;
   text-align: center;
   color: #181717;
 }
@@ -233,7 +257,7 @@ footer {
   grid-gap: 10px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  background: #e7d2d2;
+  background: #f7f2f2;
   color: #2c2a2a;
   padding: 5em;
 }
