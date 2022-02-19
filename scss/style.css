@@ -110,7 +110,26 @@ article * {
 }
 
 .programacao {
-  padding: 1em;
+  display: -ms-grid;
+  display: grid;
+  gap: .1em;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 3em;
+}
+
+.programacao .prog1 {
+  background: #4d5794;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 25px;
+  text-align: center;
+}
+
+.programacao .prog1 h2 {
+  margin-top: 1em;
+  color: white;
 }
 
 .quemsomos {
@@ -224,8 +243,17 @@ svg {
   color: white;
 }
 
-.sobrenossoevento {
+.full-width {
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1 /-1;
+  -ms-grid-columns: minmax(auto, 900px);
+      grid-template-columns: minmax(auto, 900px);
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5em;
 }
 
 .investimento {
