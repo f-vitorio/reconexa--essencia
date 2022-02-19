@@ -31,7 +31,7 @@ h4 {
   background-position-x: 55%;
   background-position-y: 50%;
   width: 100%;
-  height: 95vh;
+  height: 130vh;
   z-index: -1;
   -webkit-filter: contrast();
           filter: contrast();
@@ -127,7 +127,7 @@ article * {
   text-align: center;
 }
 
-.programacao .prog1 h2 {
+.programacao .prog1 h4 {
   margin-top: 1em;
   color: white;
 }
@@ -262,12 +262,13 @@ svg {
   grid-gap: 0.2em;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  margin: 2em;
+  margin: 2em 5em;
   padding: 0.1em;
 }
 
 .box {
   background-color: #f7f2f2;
+  margin: .5em;
   padding: 0.7em;
   inline-size: 400px;
   overflow-wrap: break-word;

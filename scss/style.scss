@@ -34,7 +34,7 @@ h4 {
   background-position-x: 55%;
   background-position-y: 50%;
   width: 100%;
-  height: 95vh;
+  height: 130vh;
   z-index: -1;
 
   filter: contrast();
@@ -131,7 +131,7 @@ article {
     padding: 25px;
     text-align: center;
     
-     h2 {
+     h4 {
       margin-top: 1em;
       color: white;
      }
@@ -260,12 +260,12 @@ svg {
   display: grid;
   grid-gap: 0.2em;
   grid-template-columns:1fr 1fr 1fr;
-  margin: 2em;
+  margin: 2em 5em; 
   padding: 0.1em;
 }
 .box {
   background-color: $light-color;
-  // margin: .5em .5em;
+  margin: .5em ;
   padding: 0.7em;
   inline-size: 400px;
   overflow-wrap: break-word;
