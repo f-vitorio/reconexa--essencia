@@ -21,7 +21,7 @@ h2,
 h3,
 h4 {
   font-weight: 400;
-  color: #2742f3;
+  color: #2020fc;
 }
 
 .sol {
@@ -76,7 +76,7 @@ h4 {
 }
 
 .hero h3 {
-  color: #2742f3;
+  color: #2020fc;
 }
 
 .whatsapp {
@@ -84,6 +84,10 @@ h4 {
   right: 0;
   bottom: 0;
   margin: 2em;
+}
+
+.fa-whatsapp-square {
+  color: #62fd62;
 }
 
 .motivos {
@@ -149,7 +153,7 @@ article * {
 }
 
 .programacao .prog1 {
-  background: #2742f3;
+  background: #2020fc;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -185,15 +189,15 @@ svg {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
   margin: auto;
 }
 
 .head {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(auto, 700px);
-      grid-template-columns: minmax(auto, 700px);
+  -ms-grid-columns: minmax(auto, 1000px);
+      grid-template-columns: minmax(auto, 1000px);
   margin: 2em;
   padding: 0.1em;
   text-align: center;
@@ -202,7 +206,7 @@ svg {
 }
 
 .head p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .head span {
@@ -269,7 +273,7 @@ svg {
 }
 
 .atividades {
-  background: rgba(7, 7, 243, 0.068);
+  background: #2020fc;
   padding: 15px;
   text-align: center;
   -webkit-box-align: center;
@@ -278,11 +282,11 @@ svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #2c2b2b;
+  color: white;
 }
 
 .atividades h3 {
-  color: #2c2b2b;
+  color: white;
 }
 
 .full-width {
@@ -297,19 +301,23 @@ svg {
   text-align: center;
 }
 
+.full-width p {
+  font-size: 1.1rem;
+}
+
 .investimentos {
   display: -ms-grid;
   display: grid;
   gap: 0.5em;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  margin: 0 3em;
+  margin: 2em 3em;
 }
 
 .box {
   display: -ms-grid;
   display: grid;
-  background: rgba(243, 185, 238, 0.329);
+  background: white;
   padding: 50px;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;

@@ -1,6 +1,6 @@
 $light-color: rgb(247, 242, 242);
 $primary-color: rgb(56, 56, 58);
-$secondary-color: rgb(39, 66, 243);
+$secondary-color: rgb(32, 32, 252);
 
 body {
   display: grid;
@@ -77,6 +77,10 @@ h4 {
   right: 0;
   bottom: 0;
   margin: 2em;
+}
+
+.fa-whatsapp-square {
+    color: rgb(98, 253, 98);
 }
 
 .motivos {
@@ -176,7 +180,7 @@ svg {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
   margin: auto;
 }
 
@@ -184,7 +188,7 @@ svg {
 
 .head {
   display: grid;
-  grid-template-columns: minmax(auto, 700px);
+  grid-template-columns: minmax(auto, 1000px);
   margin: 2em;
   padding: 0.1em;
   text-align: center;
@@ -192,7 +196,7 @@ svg {
   top: 50px;
 
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   span {
     font-weight: 600;
@@ -255,16 +259,16 @@ svg {
   // text-align: center;
 }
 .atividades {
-  background: rgba(7, 7, 243, 0.068);
+  background: $secondary-color;
   padding: 15px;
   // align-content: center;
   text-align: center;
   align-items: center;
   justify-content: center;
-  color: rgb(44, 43, 43);
+  color: white;
 
   h3 {
-    color: rgb(44, 43, 43);
+    color: white;
   }
 }
 
@@ -276,19 +280,24 @@ svg {
   margin-right: auto;
   padding: 0.5em;
   text-align: center;
+
+  p {
+    font-size: 1.1rem;
+  }
 }
 
 .investimentos {
   display: grid;
   gap: 0.5em;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 3em;
+  margin: 2em 3em;
+
 }
 
 
 .box {
   display: grid;
-  background: rgba(243, 185, 238, 0.329);
+  background: white;
   padding: 50px;
   grid-template-columns: 1fr 2fr;
   grid-column: 1 /-1;
