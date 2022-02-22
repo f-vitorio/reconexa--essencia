@@ -290,7 +290,8 @@ svg {
   display: grid;
   gap: 0.5em;
   grid-template-columns: repeat(2, 1fr);
-  margin: 2em 3em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // margin: 2em .3em;
 
 }
 
