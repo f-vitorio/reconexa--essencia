@@ -319,18 +319,20 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-items: center;
+  margin-top: 2em;
 }
 
 .box {
   display: -ms-grid;
   display: grid;
   background: white;
-  padding: 50px;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+  padding: 10px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-column: 1 /-1;
   text-align: start;
-  border-bottom: solid gray;
+  border-bottom: 0.1em solid gray;
 }
 
 .box p {

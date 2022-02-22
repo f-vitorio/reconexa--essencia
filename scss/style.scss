@@ -294,6 +294,8 @@ svg {
   // margin: 2em .3em;
   justify-content: center;
   align-items: center;
+  justify-items: center;
+  margin-top: 2em;
 
 }
 
@@ -301,11 +303,11 @@ svg {
 .box {
   display: grid;
   background: white;
-  padding: 50px;
-  grid-template-columns: 1fr 2fr;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
   grid-column: 1 /-1;
   text-align: start;
-  border-bottom:  solid gray;
+  border-bottom: 0.1em solid gray;
   p {
     font-weight: 600;
   }
