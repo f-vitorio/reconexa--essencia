@@ -30,7 +30,7 @@ h4 {
 .sol {
   display: grid;
   grid-template-columns: 1 / -1;
-  grid-template-columns: minmax(auto, 600px);
+  grid-template-columns: minmax(auto, 500px);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -373,4 +373,14 @@ footer {
     display: grid;
     grid-template-columns: 10px 2fr 10px;
   }
+
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin: auto;
+}
+
 }
