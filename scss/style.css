@@ -201,12 +201,13 @@ svg {
   margin: 2em;
   padding: 0.1em;
   text-align: center;
+  width: 60%;
   position: relative;
   top: 50px;
 }
 
 .head p {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .head span {
@@ -309,8 +310,8 @@ svg {
   display: -ms-grid;
   display: grid;
   gap: 0.5em;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
   -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   -webkit-box-pack: center;
@@ -320,7 +321,7 @@ svg {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 .box {
@@ -333,14 +334,17 @@ svg {
   grid-column: 1 /-1;
   text-align: start;
   border-bottom: 0.1em solid gray;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
 }
 
 .box p {
-  font-weight: 600;
-}
-
-.box .title {
-  font-size: 1.4rem;
+  font-weight: 550;
 }
 
 footer {
