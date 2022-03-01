@@ -344,7 +344,7 @@ footer {
   grid-gap: 10rem;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  background: #f5f5bd;
+  background: #e9e9b8;
   font: 14px Helvetica, Arial, sans-serif;
   color: #2c2a2a;
   padding: 5em;
