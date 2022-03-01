@@ -341,12 +341,14 @@ footer {
 .contato {
   display: -ms-grid;
   display: grid;
-  grid-gap: 10px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  background: #f7f2f2;
+  grid-gap: 10rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background: #f1f1c6;
+  font: 14px Helvetica, Arial, sans-serif;
   color: #2c2a2a;
   padding: 5em;
+  text-align: center;
 }
 
 .contato a {

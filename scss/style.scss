@@ -320,11 +320,14 @@ footer {
 
 .contato {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  background: $light-color;
+  grid-gap: 10rem;
+  grid-template-columns: 1fr 1fr;
+  background: rgb(241, 241, 198);
+  font: 14px Helvetica, Arial, sans-serif;
   color: rgb(44, 42, 42);
   padding: 5em;
+  // margin: auto;  
+  text-align: center;
 
   a {
     // text-decoration: none;
