@@ -1,0 +1,333 @@
+body {
+  display: grid;
+  grid-column: 15em 1fr 15em;
+  grid-gap: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body p {
+  font-size: 1rem;
+}
+
+.btn {
+  color: white;
+  text-transform: uppercase;
+  background: red;
+  font-weight: 600;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  color: #2020fc;
+}
+
+.sol {
+  display: grid;
+  grid-template-columns: 1/-1;
+  grid-template-columns: minmax(auto, 500px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: url(/assets/img/Hero.jpg);
+  width: 100%;
+  height: 80vh;
+  background-position-y: 50%;
+  background-position-x: 50%;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.sol p {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1/-1;
+  grid-template-columns: minmax(auto, 600px);
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  color: #292828;
+  text-shadow: 1em;
+  background-image: linear-gradient(to right, #f7f2f2, rgba(240, 240, 18, 0.13), #f7f2f2);
+  padding: 3em;
+}
+.hero h3 {
+  color: #2020fc;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 2em;
+}
+
+.fa-whatsapp-square {
+  color: #62fd62;
+}
+
+.motivos {
+  padding: 5px;
+  margin-top: 4em;
+}
+.motivos span {
+  padding: 0.5rem;
+  text-align: start;
+}
+.motivos div {
+  margin-top: 0.1em;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  background-image: linear-gradient(to right, #f7f2f2, rgba(240, 240, 18, 0.13), #f7f2f2);
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+}
+article * {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.espaco {
+  position: relative;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2em;
+  background: #f7f2f2;
+}
+.espaco img {
+  width: 100%;
+  height: 200px;
+}
+
+.programacao {
+  display: grid;
+  gap: 0.1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 3em;
+}
+.programacao .prog1 {
+  background: #2020fc;
+  align-self: center;
+  padding: 25px;
+  text-align: center;
+}
+.programacao .prog1 h4 {
+  margin-top: 1em;
+  color: white;
+}
+
+.quemsomos {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: start;
+}
+.quemsomos img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.quemsomos a {
+  text-decoration: none;
+}
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin: auto;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: minmax(auto, 1000px);
+  margin: 2em;
+  padding: 0.1em;
+  text-align: center;
+  width: 60%;
+  position: relative;
+  top: 50px;
+}
+.head p {
+  font-size: 1rem;
+}
+.head span {
+  font-weight: 600;
+}
+
+.terapeutas {
+  text-align: start;
+  padding: 0.5em;
+}
+.terapeutas img {
+  width: 100%;
+  height: 300px;
+}
+.terapeutas h4 {
+  text-transform: capitalize;
+}
+
+.terapeutas1 {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: minmax(auto, 900px);
+  text-align: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.nome {
+  font-weight: 700;
+  color: #3d3c3c;
+  font-size: 1.6rem;
+}
+
+.endereco {
+  margin: 0em 1em;
+  align-content: center;
+}
+.endereco .local a {
+  text-decoration: none;
+}
+.endereco .local img {
+  width: 100%;
+  height: 280px;
+}
+
+.evento {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 3em 0.3em;
+}
+
+.atividades {
+  background: #2020fc;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.atividades h3 {
+  color: white;
+}
+
+.full-width {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: minmax(auto, 900px);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  text-align: center;
+  margin-top: 5em;
+}
+.full-width p {
+  font-size: 1.1rem;
+}
+
+.investimentos {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 1fr, 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  margin-top: 3em;
+}
+.investimentos p {
+  font-weight: 400;
+}
+.investimentos .box {
+  background: #f3f1f1;
+  padding: 1em;
+  display: grid;
+  grid-column: 1/-1;
+}
+
+footer {
+  background: #f7f2f2;
+  text-align: center;
+  color: #181717;
+}
+
+.contato {
+  display: grid;
+  grid-gap: 10rem;
+  grid-template-columns: 1fr 1fr;
+  background: #f1f1c6;
+  font: 14px Helvetica, Arial, sans-serif;
+  color: #2c2a2a;
+  padding: 5em;
+  text-align: center;
+}
+.contato a {
+  color: #fbfbfb;
+  font-size: 1.3rem;
+}
+.contato .fa-solid {
+  color: blue;
+}
+
+@media (max-width: 700px) {
+  .quemsomos {
+    grid-template-columns: 1fr;
+  }
+
+  .espaco {
+    margin: 1em;
+    grid-template-columns: 1fr;
+  }
+
+  .evento {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .investimento {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contato {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 30px;
+  }
+
+  .img-hero {
+    width: 100%;
+    height: 65vh;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 10px 2fr 10px;
+  }
+
+  svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
